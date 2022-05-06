@@ -12,7 +12,7 @@ cwd = os.getcwd()
 input_folder = "0_input"
 
 # import files
-df = pd.read_excel(os.path.join(cwd,"GPS_Coordinates research_KS.xlsx"))
+df = pd.read_excel(os.path.join(cwd,"GPS_input.xlsx"))
 df['Latitude'] = df['Latitude'].astype('float')
 df['Longitude'] = df['Longitude'].astype('float')
 df['3miles'] = 0
